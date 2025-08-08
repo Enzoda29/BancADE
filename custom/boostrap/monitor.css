@@ -1,0 +1,21 @@
+#wrapper-monitor {
+	width: 100%;
+	position: inherit;
+	margin: 0 25 35 25px;
+	padding: 40px;
+}
+
+/* datatable css custom */ 
+#appendBody table th{
+	background: #f3f4f5;
+}
+
+#appendBody table tr{
+	background: white;
+}
+
+#appendBody table tbody tr:hover{
+	background: #e3edfd;
+	color: #00bf00;
+	text-transform: bold !important;
+}

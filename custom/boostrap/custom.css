@@ -1,0 +1,153 @@
+.navbar-custom {
+	background-color: #078dbf;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navbar-default {
+	background-color: #078dbf;
+	/*     border-color: #e7e7e7; */
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-default li i.fa {
+	margin-right: 5px;
+}
+
+.navbar-default li b.caret {
+	margin-left: 5px;
+}
+
+.navbar-default li ul li a {
+	padding-left: 24px;
+}
+
+.navbar-default li ul li ul li a {
+	padding-left: 33px;
+}
+
+ul .nav {
+	background-color: #225581;
+}
+
+ul .nav .nav {
+	background-color: #777777;
+}
+
+ul .fa.fa-caret-right {
+	margin-right: 10px;
+}
+
+ul .fa.fa-angle-right {
+	margin-right: 12px;
+}
+
+a.active {
+	color: #4e4e4e
+}
+
+.panel-primary>a {
+	color: #337ab7;
+}
+
+.panel-primary>a:hover {
+	color: #275f8b;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.min-width {
+	min-width: 200px;
+}
+
+.table tbody tr.highlight td {
+	background-color: #ddd;
+}
+
+.btn, .btn-success, .btn-outline, .csv {
+	
+}
+
+.barcode {
+	top: 100px
+}
+
+/* button in bootstapp table */
+#divDettaglioStampa {
+	min-width: 80px;
+}
+
+#divDettaglioStampa  button {
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.btn-group {
+	display: inline-flex;
+}
+
+.btn-secondary {
+	color: #292b2c;
+	background-color: #ffffff;
+	border-color: #ccc
+}
+
+.btn-secondary:hover {
+	color: #292b2c;
+	background-color: #e6e6e6;
+	border-color: #adadad
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+	-webkit-box-shadow: 0 0 0 2px rgba(204, 204, 204, .5);
+	box-shadow: 0 0 0 2px rgba(204, 204, 204, .5),
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+	background-color: green;
+	border-color: #ccc
+}
+
+.btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle
+	{
+	color: #292b2c;
+	background-color: #e6e6e6;
+	background-image: none;
+	border-color: #adadad
+}
+
+.btn .btn-secondary:checked {
+	color: #292b2c;
+	background-color: #e6e6e6;
+	background-image: none;
+	border-color: #adadad
+}
+
+@media screen {
+	#printSection {
+		display: none;
+	}
+}
+
+@media print {
+	body * {
+		visibility: hidden;
+	}
+	#printSection, #printSection * {
+		visibility: visible;
+	}
+	#printSection {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}

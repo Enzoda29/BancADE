@@ -1,0 +1,6 @@
+.modal-dialog {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.top-buffer { margin-top:15px; }
