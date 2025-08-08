@@ -1,4 +1,4 @@
-package it.citel.postel.bancarizzazioneGUI.util;
+package it.postel.bancarizzazioneGUI.util;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,11 +10,6 @@ public class RequestUtil {
 	public static String getRequestParameter(String parameterName){
 		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
 		return request.getParameter(parameterName);
-	}
-	
-	public static String[] getRequestParameterValue(String parameterName){
-		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-		return request.getParameterValues(parameterName);
 	}
 	
 	public static HttpServletRequest getRequest() {
